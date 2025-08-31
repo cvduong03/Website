@@ -9,6 +9,7 @@ header {
   text-align: center;
 }
 
+
 .front-message {
   color: white;
 }
@@ -21,7 +22,4 @@ header {
 
 .project-card {
   background-color: white;
-}
-.front-message {
-  color: white;
 }
