@@ -9,7 +9,7 @@ body {
 /* space-between will push 2 items to the edge*/
 .header {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   height: 60px;
   background-color: rgb(10, 10, 10);
@@ -29,13 +29,15 @@ body {
   margin-right: 16px;
 }
 
-.bar1, .bar2, .bar3 {
-    width: 32px;
-    height: 4px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 2px;
-    margin: 4px 0px;
-    transition: 0.4s;
+.bar1,
+.bar2,
+.bar3 {
+  width: 32px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  margin: 4px 0px;
+  transition: 0.4s;
 }
 
 /* Rotate top bar -45deg */
@@ -76,3 +78,4 @@ body {
 
 .dropdown-menu.active {
   max-height: 160px;
+}
